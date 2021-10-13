@@ -1,0 +1,13 @@
+Yleiskäyttöinen yksinkertainen blogi.
+
+Mahdollistaa blogi tekstien kommentoinen helposti.
+
+Toteutuksessa käytetään JS/PHP/SQL
+
+Ylläpito puoli tehdään jos aika riittää.
+
+Käyttäjänhallinta tehdään jos aika riittää.
+
+Riskinä on että sairastuu tai taidot ei riitä.
+
+Käytetään tähtiä.
