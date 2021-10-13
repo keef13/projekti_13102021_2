@@ -8,9 +8,9 @@
         session_start();
     }
 
-    $hostname = "localhost";
-    $username = "root";
-    $password = "";
+    $hostname = "localdb";
+    $username = "azure";
+    $password = "6#vWHD_$";
     $dbname = "your_database_name";
     
     $connection = mysqli_connect($hostname, $username, $password, $dbname) or die("Database connection not established.")
