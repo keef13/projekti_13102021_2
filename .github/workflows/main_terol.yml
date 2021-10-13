@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'TeroL'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E372953927FC45B0B15C37F0D938C6E9 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6E43778E4BFE465A832F8A529C9C08C7 }}
           package: .
