@@ -97,7 +97,7 @@ if (isset($_POST['reset-password'])) {
 	$mail->addAddress($email, $emailToName);
 	$mail->Subject = "Resetoi salasana";
 	
-	$msg = "Hi there, click on this <a href=\"new_password.php?token=" . $token . "\">link</a> to reset your password on our site";
+	$msg = "Hi there, click on this <a href=\"//terol.azurewebsites.net/new_password.php?token=" . $token . "\">link</a> to reset your password on our site";
 	
 	
   //$msg = "Hi there, click on this <a href=\"new_password.php?token=\">link</a> to reset your password on our site";
