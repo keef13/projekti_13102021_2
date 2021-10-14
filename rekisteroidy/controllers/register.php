@@ -143,6 +143,8 @@ if(!$mail->send()){
 }else{
     $tulos = true;
     //debuggeri("Message sent!");
+    /* 14102021 */
+    header("Location: https://terol.azurewebsites.net/kiitos.php");
 }
                
 			   
