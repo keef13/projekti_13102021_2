@@ -19,7 +19,7 @@ $errors = [];
 $user_id = "";
 // connect to database
 //$db = mysqli_connect('localhost', 'root', '', 'your_database_name');
-include('./config/db.php');
+require_once './config/db.php';
 
 
 
