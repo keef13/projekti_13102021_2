@@ -8,7 +8,7 @@
         session_start();
     }
 
-    $hostname = "127.0.0.1";
+    $hostname = "localdb";
     $username = "azure";
     $password = "6#vWHD_$";
     $dbname = "your_database_name";
