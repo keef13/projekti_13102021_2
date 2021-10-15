@@ -122,7 +122,7 @@ $(function() {
                         <input type="password" class="form-control" name="password_signin"
                             id="password_signin" required />
                     </div>
-
+<br>
                     <button type="submit" name="login" id="sign_in" class="btn btn-outline-primary btn-lg btn-block">Kirjaudu</button>
                     <br><a href="enter_email.php">Uusi salasana</a>
                   </fieldset>

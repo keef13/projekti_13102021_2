@@ -112,7 +112,7 @@ $(function() {
                         <?php echo $_passwordErr; ?>
                         <?php echo $passwordEmptyErr; ?>
                     </div>
-
+<br>
                     <button type="submit" name="submit" id="submit" class="btn btn-outline-primary btn-lg btn-block">Rekisteröidy
                     </button>
                     </fieldset>
