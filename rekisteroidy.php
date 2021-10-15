@@ -73,7 +73,7 @@ $(function() {
                     <?php echo $email_verify_success; ?>
 
                     <div class="form-group">
-                        <label>Etunimi</label>
+                        <label>Etunimi</label><br>
                         <input type="text" class="form-control" name="firstname" id="firstName" />
 
                         <?php echo $fNameEmptyErr; ?>
@@ -81,7 +81,7 @@ $(function() {
                     </div>
 
                     <div class="form-group">
-                        <label>Sukunimi</label>
+                        <label>Sukunimi</label><br>
                         <input type="text" class="form-control" name="lastname" id="lastName" />
 
                         <?php echo $l_NameErr; ?>
@@ -89,7 +89,7 @@ $(function() {
                     </div>
 
                     <div class="form-group">
-                        <label>Email</label>
+                        <label>Email</label><br>
                         <input type="email" class="form-control" name="email" id="email" />
 
                         <?php echo $_emailErr; ?>
@@ -97,7 +97,7 @@ $(function() {
                     </div>
 
                     <div class="form-group">
-                        <label>Puh.</label>
+                        <label>Puh.</label><br>
                         <input type="text" class="form-control" name="mobilenumber" id="mobilenumber" />
 
                         <?php echo $_mobileErr; ?>
@@ -105,7 +105,7 @@ $(function() {
                     </div>
 
                     <div class="form-group">
-                        <label>Salasana</label>
+                        <label>Salasana</label><br>
                         <input type="password" class="form-control" name="password" id="password" />
 
                         <?php echo $_passwordErr; ?>
