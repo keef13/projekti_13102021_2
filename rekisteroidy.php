@@ -64,6 +64,8 @@ $(function() {
         <div class="vertical-center">
             <div class="inner-block">
                 <form action="" method="post">
+                <fieldset>
+    <legend>Personalia:</legend>
                     <h3>Rekisteröidy</h3>
 
                     <?php echo $success_msg; ?>
@@ -114,6 +116,7 @@ $(function() {
 
                     <button type="submit" name="submit" id="submit" class="btn btn-outline-primary btn-lg btn-block">Rekisteröidy
                     </button>
+                    </fieldset>
                 </form>
             </div>
         </div>
