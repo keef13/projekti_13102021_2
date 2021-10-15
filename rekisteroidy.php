@@ -65,8 +65,7 @@ $(function() {
             <div class="inner-block">
                 <form action="" method="post">
                 <fieldset>
-    <legend>Personalia:</legend>
-                    <h3>Rekisteröidy</h3>
+    <legend>Rekisteröidy</legend>
 
                     <?php echo $success_msg; ?>
                     <?php echo $email_exist; ?>
