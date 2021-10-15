@@ -58,7 +58,7 @@ $(function() {
 </header>
 
 
-<div style="margin: auto;width: 50%;"/>
+<!-- <div style="margin: auto;width: 50%;"/> -->
 <br><br><br><br><br>
 <div class="App">
         <div class="vertical-center">
