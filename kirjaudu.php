@@ -114,13 +114,13 @@ $(function() {
 
                     <div class="form-group">
                         <label>Email</label><br>
-                        <input type="email" class="form-control" name="email_signin" id="email_signin" />
+                        <input type="email" class="form-control" name="email_signin" id="email_signin" required />
                     </div>
 
                     <div class="form-group">
                         <label>Salasana</label><br>
                         <input type="password" class="form-control" name="password_signin"
-                            id="password_signin" />
+                            id="password_signin" required />
                     </div>
 
                     <button type="submit" name="login" id="sign_in" class="btn btn-outline-primary btn-lg btn-block">Kirjaudu</button>
