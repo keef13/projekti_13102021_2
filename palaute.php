@@ -105,7 +105,6 @@ $(function() {
 
 <div style="margin: auto;width: 50%;"/>
 
-<h1>Ota yhteyttä</h1>
 <form action="kiitos_palautteesta.php" style="padding:10px;">
 	    <fieldset>
 			<legend>Yhteydenotto</legend>
