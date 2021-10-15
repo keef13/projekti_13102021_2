@@ -39,11 +39,11 @@ i=i+1;
 
 }
 
-$(function() {
+/*$(function() {
 	$('.toggler').on('click', function() {
 		$('nav').slideToggle(500);
   });
-});
+});*/
 
 
 </script>
