@@ -165,3 +165,8 @@ section:after {
    float: right;
   }
 }
+
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+   display: inline; /*block;*/
+}
