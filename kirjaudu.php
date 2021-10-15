@@ -51,7 +51,7 @@ $(function() {
 </script>
 <style>
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
-    display: none !important;
+    display: inline !important;
 }
 
 </style>
