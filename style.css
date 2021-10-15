@@ -2,7 +2,11 @@
 	  font-family:Verdana;
 	  
   }
-  
+ 
+form{
+padding:20px;
+}
+
   .grid-container {
 display: grid;
   grid-template-columns: auto auto auto;
