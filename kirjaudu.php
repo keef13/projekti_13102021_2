@@ -112,12 +112,12 @@ $(function() {
                     <?php echo $pass_empty_err; ?>
 
                     <div class="form-group">
-                        <label>Email</label>
+                        <label>Email</label><br>
                         <input type="email" class="form-control" name="email_signin" id="email_signin" />
                     </div>
 
                     <div class="form-group">
-                        <label>Salasana</label>
+                        <label>Salasana</label><br>
                         <input type="password" class="form-control" name="password_signin"
                             id="password_signin" />
                     </div>
