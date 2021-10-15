@@ -240,7 +240,7 @@ $(function() {
 <header> 
   <div class="content">
     
-    <a class="logo" href="#">Logo</a>
+    <a class="logo" href="#">Blogi</a>
     <div class="toggler"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></div>
     
     <!-- Start Navigation -->
