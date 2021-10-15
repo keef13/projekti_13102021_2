@@ -58,6 +58,12 @@ header {
   background-color: #2F2F2F;
   position: fixed;
   z-index: 999;
+
+
+  /* 15102021 */
+display:inline !important
+
+
 }
 
 .logo {
@@ -166,7 +172,3 @@ section:after {
   }
 }
 
-
-article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
-   display: inline; /*block;*/
-}
