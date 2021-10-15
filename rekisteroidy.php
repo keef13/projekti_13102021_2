@@ -74,7 +74,7 @@ $(function() {
 
                     <div class="form-group">
                         <label>Etunimi</label><br>
-                        <input type="text" class="form-control" name="firstname" id="firstName" />
+                        <input type="text" class="form-control" name="firstname" id="firstName" required />
 
                         <?php echo $fNameEmptyErr; ?>
                         <?php echo $f_NameErr; ?>
@@ -82,7 +82,7 @@ $(function() {
 
                     <div class="form-group">
                         <label>Sukunimi</label><br>
-                        <input type="text" class="form-control" name="lastname" id="lastName" />
+                        <input type="text" class="form-control" name="lastname" id="lastName" required />
 
                         <?php echo $l_NameErr; ?>
                         <?php echo $lNameEmptyErr; ?>
@@ -90,7 +90,7 @@ $(function() {
 
                     <div class="form-group">
                         <label>Email</label><br>
-                        <input type="email" class="form-control" name="email" id="email" />
+                        <input type="email" class="form-control" name="email" id="email" required />
 
                         <?php echo $_emailErr; ?>
                         <?php echo $emailEmptyErr; ?>
@@ -98,7 +98,7 @@ $(function() {
 
                     <div class="form-group">
                         <label>Puh.</label><br>
-                        <input type="text" class="form-control" name="mobilenumber" id="mobilenumber" />
+                        <input type="text" class="form-control" name="mobilenumber" id="mobilenumber" required />
 
                         <?php echo $_mobileErr; ?>
                         <?php echo $mobileEmptyErr; ?>
@@ -106,7 +106,7 @@ $(function() {
 
                     <div class="form-group">
                         <label>Salasana</label><br>
-                        <input type="password" class="form-control" name="password" id="password" />
+                        <input type="password" class="form-control" name="password" id="password" required />
 
                         <?php echo $_passwordErr; ?>
                         <?php echo $passwordEmptyErr; ?>
