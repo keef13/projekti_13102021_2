@@ -91,8 +91,10 @@ $(function() {
   </div> 
 </header>
 
-<!-- <h1 id="info"> --> <!-- Resize and Scroll the Page -->
-<!-- </h1> -->
+ <!--<h1 id="info">--> <!-- Resize and Scroll the Page -->
+ <!-- </h1> -->
+
+ <br><br><br><br>
 <!-- 
 <section>
   <h1>Mônica Saturno Busatta</h1>
