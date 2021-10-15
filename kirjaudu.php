@@ -94,7 +94,7 @@ $(function() {
 <!-- https://s.cdpn.io/6859/iphone.png -->
 
 
-<div style="text-align:center;">
+<div style="/*text-align:center;*/">
 <?php include('login.php'); /*include('./controllers/login.php');*/ ?>
 <br><br><br><br>
     <!-- Login form -->
