@@ -28,174 +28,7 @@ use PHPMailer\PHPMailer\Exception;
 	
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<style>
-  
-  *{
-	  font-family:Verdana;
-	  
-  }
-  
-  .grid-container {
-display: grid;
-  grid-template-columns: auto auto auto;
-  padding: 10px;
-  
-  /*11112021*/
-  width:400px;
-}
-.grid-item {
-  /*padding: 20px;*/
-  font-size: 16px;
- /* text-align: center;*/
-}
 
-.button {
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #F2F2F2;
-  font-family: 'Open Sans', sans-serif;
-}
-
-/* START MENU BAR */
-.content {
-  padding: 0 20px;
-}
-
-header {
-  width: 100%;
-  background-color: #2F2F2F;
-  position: fixed;
-  z-index: 999;
-}
-
-.logo {
-  color: #5FC0DC;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-size: 36px;
-  font-weight: bold;
-}
-
-.toggler {
-  color: #5FC0DC;
-  cursor: pointer;
-  position: absolute;
-  top: 8px;
-  right: 50px;
-}
-
-/* START NAVIGATION */
-nav {
-  width: 100%;
-  display: none;
-}
-
-nav ul {
-  list-style: none;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: #F2F2F2;
-  font-size: 18px;
-  line-height: 40px;
-  transition: 0.3s ease-out;
-}
-
-nav ul li a:hover {
-  color: #5FC0DC;
-}
-
-.active {
-  color: #5FC0DC;
-}
-
-.side-nav {
-  text-align: center;
-}
-
-.side-nav a {
-  text-decoration: none;
-  color: #5FC0DC;
-  padding-right: 15px;
-  line-height: 40px;
-}
-
-/* END NAVIGATION */
-section {
-  margin-top: 500px;
-  text-align: center;
-  font-size: 10px;
-  color: #2F2F2F;
-  margin-bottom: 20px;
-}
-
-section:after {
-  content: 'Jan/2018';
-  font-size: 12px;
-  font-weight: bold;
-}
-
-#info {
-  padding-top: 200px;
-  text-align: center;
-  color: #5FC0DC;
-}
-
-@media screen and (min-width: 872px) {
-  
-  .content {
-    padding: 0 50px;
-  }
-  
-  .toggler {
-    display: none;
-  }
-  
-  nav {
-    display: inline-block !important; /* prevent the nav to hide when resize */
-    position: relative;
-    width: auto;
-    float: right;
-    padding: 5px 0;
-  }
- 
-  nav ul {
-    float: left;
-  }
-  
-  nav ul li {
-    display: inline-block;
-    padding-right: 20px;
-  }
-  
-  .side-nav {
-   float: right;
-  }
-}
-
-
-
-	</style>
 	
 	
 <script>
@@ -233,7 +66,7 @@ $(function() {
 <header> 
   <div class="content">
     
-    <a class="logo" href="#">Logo</a>
+    <a class="logo" href="#">Blogi</a>
     <div class="toggler"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></div>
     
     <!-- Start Navigation -->
@@ -273,7 +106,7 @@ $(function() {
 <div style="margin: auto;width: 50%;"/>
 
 <h1>Ota yhteyttä</h1>
-<form action="kiitos_palautteesta.php">
+<form action="kiitos_palautteesta.php" style="padding:10px;">
 	    <fieldset>
 			<legend>Yhteydenotto</legend>
 			Nimi *:<br>
