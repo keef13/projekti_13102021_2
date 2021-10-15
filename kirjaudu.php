@@ -101,7 +101,7 @@ $(function() {
     <div class="App">
         <div class="vertical-center">
             <div class="inner-block">
-
+            <div style="margin: auto;width: 50%;"/>
                 <form action="" method="post">
                 <fieldset>
     <legend>Kirjaudu</legend>
@@ -129,7 +129,7 @@ $(function() {
 
                   </form>
 				
-				
+                  </div>
 				
             </div>
         </div>
