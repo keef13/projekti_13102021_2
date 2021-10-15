@@ -124,7 +124,7 @@ $(function() {
                     </div>
 
                     <button type="submit" name="login" id="sign_in" class="btn btn-outline-primary btn-lg btn-block">Kirjaudu</button>
-                    <a href="enter_email.php">Uusi salasana</a>
+                    <br><a href="enter_email.php">Uusi salasana</a>
                   </fieldset>
 
                   </form>
