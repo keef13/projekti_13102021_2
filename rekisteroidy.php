@@ -40,7 +40,7 @@ $(function() {
       <ul>
 				<li><a href="index.php">Aloitus</a></li>
 				<li><a href="palaute.php">Palaute</a></li>
-				<li><a href="rekisteroidy/logout.php">Kirjaudu ulos</a></li>
+				<!-- <li><a href="rekisteroidy/logout.php">Kirjaudu ulos</a></li> -->
 				<li><a href="rekisteroidy.php">Rekisteröidy</a></li>
 				<li><a href="kirjaudu.php">Kirjaudu</a></li>
 				<li><a href="blogi.php">Blogi</a></li>
@@ -58,7 +58,7 @@ $(function() {
 </header>
 
 
-<!-- <div style="margin: auto;width: 50%;"/> -->
+<div style="margin: auto;width: 50%;"/> 
 <br><br><br><br><br>
 <div class="App">
         <div class="vertical-center">
