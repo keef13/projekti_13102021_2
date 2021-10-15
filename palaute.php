@@ -11,7 +11,7 @@ use PHPMailer\PHPMailer\Exception;
     // Database connection
     include('config/db.php');
 ?>
-
+ 
 <!DOCTYPE html>
 <html>
 <head>
