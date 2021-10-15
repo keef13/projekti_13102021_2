@@ -51,7 +51,7 @@ $(function() {
 </script>
 <style>
  nav {
-    display: none !important;
+    display: block !important;
 }
 
 </style>
