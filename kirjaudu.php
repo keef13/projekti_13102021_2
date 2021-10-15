@@ -12,7 +12,7 @@
 	
 	<link rel="stylesheet" href="https://use.fontawesome.com/245137f78c.js">
 	 <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
 
 
 <link rel="stylesheet" href="_reboot.scss">
