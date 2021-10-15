@@ -103,7 +103,8 @@ $(function() {
             <div class="inner-block">
 
                 <form action="" method="post">
-                    <h3>Kirjaudu</h3>
+                <fieldset>
+    <legend>Kirjaudu</legend>
 
                     <?php echo $accountNotExistErr; ?>
                     <?php echo $emailPwdErr; ?>
@@ -123,7 +124,8 @@ $(function() {
                     </div>
 
                     <button type="submit" name="login" id="sign_in" class="btn btn-outline-primary btn-lg btn-block">Kirjaudu</button>
-                </form>
+</fieldset>
+                  </form>
 				
 				<a href="enter_email.php">Uusi salasana</a>
 				
