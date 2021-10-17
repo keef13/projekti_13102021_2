@@ -236,7 +236,7 @@ $sql2 = "SELECT kommentti from kommentit";
 
 
 // 12102021
-$sql2 = "SELECT Users.firstname, Users.lastname, Kommentit.kommentti, Kommentit.timestamp FROM Users LEFT JOIN Kommentit ON Kommentit.id_user = Users.id";
+$sql2 = "SELECT Users.firstname, Users.lastname, Kommentit.kommentti, Kommentit.timestamp FROM Users RIGHT JOIN Kommentit ON Kommentit.id_user = Users.id";
 $result2 = $connection->query($sql2);
 	 ?>
 <table>
