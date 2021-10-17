@@ -107,7 +107,7 @@ use PHPMailer\PHPMailer\Exception;
                      
 					//03102021
 					$msg = 'Click on the activation link to verify your email. <br><br>
-                          <a href="http://localhost/projekti/rekisteroidy/user_verification.php?token='.$token.'"> Click here to verify email</a>
+                          <a href="//terol.azurewebsites.net/user_verification.php?token='.$token.'"> Click here to verify email</a>
                         ';
 					$emailFrom = "omniakurssi@email.com";
 					$emailFromName = "Ohjelmointikurssi";
