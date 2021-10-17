@@ -63,7 +63,7 @@ $(function() {
 <div class="App">
         <div class="vertical-center">
             <div class="inner-block">
-                <form action="" method="post">
+                <form action="kiitos.php" method="post">
                 <fieldset>
     <legend>Rekisteröidy</legend>
 
