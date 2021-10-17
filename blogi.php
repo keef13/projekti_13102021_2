@@ -110,7 +110,7 @@ $(function() {
 
 
 <h2>Vastaa</h2>
-<form action="" method="post">
+<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
 Kommentti<br><textarea name="kommentti" rows="4" cols="50"></textarea>
 <div class="grid-container">
 
