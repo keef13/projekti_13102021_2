@@ -245,8 +245,8 @@ $result2 = $connection->query($sql2);
 while($row2 = $result2->fetch_assoc()) {
 	
 	$date=date_create($row2["timestamp"]);
-//$date2=date_format($date,"d.m.Y H:i:s"); 
-$date2=date("d.m.Y H:i:s", $date);	
+$date2=date_format($date,"d.m.Y H:i:s"); 
+//$date2=date("d.m.Y H:i:s", $date);	
 
 
 		//printf ("%s %s %s\n", $row2["firstname"], $row2["lastname"], $row2["kommentti"]);
