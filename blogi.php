@@ -171,13 +171,16 @@ $mysqli -> close();
 
 $kommentti=trim($_POST['kommentti']);
 
+/* 17102021 */ 
+$kommentti=htmlspecialchars($kommentti);
+
 if(isset($_POST['kommentti']) and !empty($_POST['kommentti'])){
 $kommentti= $_POST['kommentti'];
 
 
 
 $id=$_SESSION['id'];
-
+/* 17102021 */
 date_default_timezone_set("Europe/Helsinki");
 $timestamp = date("Y-m-d H:i:s");
 $sql = "INSERT INTO kommentit (kommentti, id_user, timestamp) VALUES ('$kommentti', '$id', '$timestamp')";
