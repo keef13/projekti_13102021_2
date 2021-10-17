@@ -178,6 +178,7 @@ $kommentti= $_POST['kommentti'];
 
 $id=$_SESSION['id'];
 
+date_default_timezone_set("Europe/Helsinki");
 $timestamp = date("Y-m-d H:i:s");
 $sql = "INSERT INTO kommentit (kommentti, id_user, timestamp) VALUES ('$kommentti', '$id', '$timestamp')";
 
