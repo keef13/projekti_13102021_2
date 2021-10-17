@@ -169,7 +169,7 @@ $mysqli -> close();
 
 
 
-$kommentti=htmlspecialchars(trim($_POST['kommentti']));
+$kommentti=trim($_POST['kommentti']);
 
 if(isset($_POST['kommentti']) and !empty($_POST['kommentti'])){
 $kommentti= $_POST['kommentti'];
