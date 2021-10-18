@@ -122,7 +122,13 @@ $(function() {
                         <input type="password" class="form-control" name="password_signin"
                             id="password_signin" required />
                     </div>
-<br>
+<br><div class="field-group">
+        <div>
+            <input type="checkbox" name="remember" id="remember"
+                <?php if(isset($_COOKIE["member_login"])) { ?> checked
+                <?php } ?> /> <label for="remember-me">Muista minut</label>
+        </div>
+    </div>
                     <button type="submit" name="login" id="sign_in" class="btn btn-outline-primary btn-lg btn-block">Kirjaudu</button>
                     <br><a href="enter_email.php">Uusi salasana</a>
                   </fieldset>
