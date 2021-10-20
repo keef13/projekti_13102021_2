@@ -130,7 +130,8 @@ use PHPMailer\PHPMailer\Exception;
 	
 	$mail->msgHTML($msg); //$mail->msgHTML(file_get_contents('contents.html'), __DIR__); //Read an HTML message body from an external file, convert referenced images to embedded,
 	$mail->AltBody = 'HTML messaging not supported';
-	
+	// 20102021
+    $mail->SMTPDebug=2;
 // $mail->addAttachment('images/phpmailer_mini.png'); //Attach an image file
 if(!$mail->send()){
     $tulos = false;
