@@ -73,23 +73,23 @@ $(function() {
 					/*$msg = 'Click on the activation link to verify your email. <br><br>
                           <a href="http://localhost/projekti/rekisteroidy/user_verification.php?token="> Click here to verify email</a>
                         ';*/
-					$emailFrom = "omniakurssi@email.com";
+					$emailFrom = "terol@vivaldi.net";
 					$emailFromName = "Palaute";
 					$emailToName = "";
 					$mail = new PHPMailer;
 						$mail->isSMTP(); 
 						$mail->CharSet = 'UTF-8';
 	$mail->SMTPDebug = 0; // 0 = off (for production use) - 1 = client messages - 2 = client and server messages
-	$mail->Host = "smtp.gmail.com"; // use $mail->Host = gethostbyname('smtp.gmail.com'); // if your network does not support SMTP over IPv6
+	$mail->Host = "smtp.vivaldi.net"; // use $mail->Host = gethostbyname('smtp.gmail.com'); // if your network does not support SMTP over IPv6
 	$mail->Port = 587; // TLS only
 	$mail->SMTPSecure = 'tls'; // ssl is depracated
 	$mail->SMTPAuth = true;
-	$mail->Username = "terolaakso802@gmail.com";
+	$mail->Username = "terol@vivaldi.net";
 	$mail->Password = "Storykeef#13!!!";
 	$mail->setFrom($emailFrom, $emailFromName);
 	$email="laakso_tero@hotmail.com";
 	$mail->addAddress($email, $emailToName);
-	$mail->Subject = "Viesti sivustolta";
+	$mail->Subject = "Palaute sivustolta";
 	
 	
     $msg = wordwrap($msg,70);
