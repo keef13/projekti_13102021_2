@@ -135,7 +135,7 @@ use PHPMailer\PHPMailer\Exception;
 if(!$mail->send()){
     $tulos = false;
 	
-	echo "virhe";
+	echo "virhe: ".$mail->ErrorInfo;
 	
    // debuggeri("Mailer Error: " . $mail->ErrorInfo);
 }else{
