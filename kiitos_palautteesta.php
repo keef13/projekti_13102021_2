@@ -64,11 +64,27 @@ $(function() {
 //12102021 
                     
 					$msg = "";
+					$Nimi="";
+					$Email="";
+					$Puhnum="";
+
+
 					//if($sqlQuery) {
-						if(isset($_GET['viesti']))
+				if(isset($_GET['viesti']))
                    $msg = "Viesti: ".$_GET['viesti'];
 				   
+				   if(isset($_GET['nimi']))
+                   $Nimi = "Nimi: ".$_GET['nimi'];	
 				   
+				   if(isset($_GET['email']))
+                   $Email = "Email: ".$_GET['email'];	
+
+				   if(isset($_GET['puhnum']))
+                   $Puhnum = "Puhnum: ".$_GET['puhnum'];	
+
+				   $msg=$msg."<br>".$Nimi."<br>".$Email."<br>"$Puhnum;
+
+
 					//03102021
 					/*$msg = 'Click on the activation link to verify your email. <br><br>
                           <a href="http://localhost/projekti/rekisteroidy/user_verification.php?token="> Click here to verify email</a>
