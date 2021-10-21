@@ -34,13 +34,6 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 
 function writeMsg() {
 
-/*document.getElementsByClassName("demo").innerHTML = '<form action="" method="get"><textarea name="kjav3" rows="4" cols="50"></textarea><br><button type="submit" name="lisaa" value="lisaa">Lähetä</button></form>';*/
-/*let i=0;
-document.getElementsByClassName("demo")[i].innerHTML='<form action="action2.php" method="post"><textarea name="kjav3" rows="4" cols="50"></textarea><br><button type="submit" name="lisaa" value="lisaa">Lähetä</button></form>';
-
-i=i+1;
-
-*/
 
 }
 
@@ -58,8 +51,8 @@ $(function() {
   </head>
 
 <body>
-<?php /*include("./config/db.php");*/ ?>
-<?php include('login.php'); /*include('./controllers/login.php');*/ ?>
+
+<?php include('login.php'); ?>
 
 <header> 
   <div class="content">
@@ -89,13 +82,9 @@ $(function() {
   </div> 
 </header>
 
-<!-- <h1 id="info">
-</h1> -->
+
 <br><br><br><br>
-<!-- 
-<section>
-  <h1>Mônica Saturno Busatta</h1>
-</section> -->
+
 
 <!-- https://s.cdpn.io/6859/iphone.png -->
 
@@ -127,45 +116,6 @@ Kommentti<br><textarea name="kommentti" rows="4" cols="50"></textarea>
 	<!-- <a href="#" onclick="writeMsg();">Uusi kysymys</a> -->
 
 <?php
-
-
-/* 11102021 */
-//$sql = "SELECT firstname, kommentti from kommentit inner join users id_user=id";
-
-//}
-
-
-
-//$row2 = $result -> fetch_assoc();
-
-
-// Free result set
-//$result -> free_result();
-
-//$mysqli -> close();
-
-	
-	
-	
-// Associative array
-/*while($row = mysqli_fetch_array($result)){
-printf ("%s (%s)\n", $row["firstname"], $row["kommentti"]);
-echo "<br>";
-}*/
-/*
-foreach($result2 as $row2){
-printf ("%s (%s)\n", $row2["firstname"], $row2["kommentti"]);
-echo "<br>";
-}*/
-
-// Free result set
-/*$result -> free_result();
-
-$mysqli -> close();
-*/
-
-
-
 
 
 
@@ -214,13 +164,6 @@ if(isset($_POST['email']))
 $email=$_POST['email'];
 $sql = "INSERT INTO users (firstname, email) VALUES ('$nimi','$email')";
 //$result = $connection->query($sql11);
-
-/*
-$sql10="INSERT INTO kommentit (kommentti) VALUES ('$kommentti')";
-$result3 = $connection->query($sql10);
-$sql11="INSERT INTO users (id) VALUES (LAST_INSERT_ID())";
-$result4 = $connection->query($sql11);
-*/
 
 
 
@@ -274,27 +217,11 @@ $connection->close();
 
 <div class="demo" style="margin-bottom:150px;"></div>
 
-<!--<h2>Esitä vastaus</h2>-->
-<?php /*$x=true;
-$apu="";
-if(isset($_GET['lisaa']))
-$apu=$_GET['lisaa'];
-*/
-//if ($apu){
-	
-	//if($apu==null || isset($apu)){
-	
-	//echo $_SESSION['id'];
 
-	?>
 
 
 	<?php
-	//$x=false;
-	//$apu.=$apu;
 	
-//}
-//}
 
 ?>
 </div>
