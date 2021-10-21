@@ -117,18 +117,22 @@ $(function() {
 			Sähköposti *:<br>
 			<input type="email" name="email" required placeholder="Enter a valid email address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"> <br><br>
 			
-			Aihe:<br>
+			Puhelinnumero *:<br>
+			<input type="text" name="puhnum" size="20" maxlength="20" required> <br><br>
+
+
+			<!--Aihe:<br>
 			<select name="aihe">
 			  <option>Kysymys tuotteista</option>
 			  <option>Tilaus</option>
 			  <option>Yhteydenottopyyntö</option>
 			  <option>Muu</option>
-			</select>
+			</select>-->
 			<br><br>
 			Viesti:<br>
 			<textarea name="viesti" size="30" maxlength="500"></textarea>
 			<br><br>
-			<label class="container">Haluan tilata Puutarhaliike Neilikan uutiskirjeen
+			<label class="container">Haluan tilata uutiskirjeen
 			<input type="checkbox">
 			<span class="checkmark"></span>
 			</label>
