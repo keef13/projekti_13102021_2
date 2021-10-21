@@ -71,16 +71,16 @@ $(function() {
 
 					//if($sqlQuery) {
 				if(isset($_GET['viesti']))
-                   $msg = "Viesti: ".$_GET['viesti'];
+                   $msg = "Viesti: ".htmlspecialchars($_GET['viesti']);
 				   
 				   if(isset($_GET['nimi']))
-                   $Nimi = "Nimi: ".$_GET['nimi'];	
+                   $Nimi = "Nimi: ".htmlspecialchars($_GET['nimi']);	
 				   
 				   if(isset($_GET['email']))
-                   $Email = "Email: ".$_GET['email'];	
+                   $Email = "Email: ".htmlspecialchars($_GET['email']);	
 
 				   if(isset($_GET['puhnum']))
-                   $Puhnum = "Puhnum: ".$_GET['puhnum'];	
+                   $Puhnum = "Puhnum: ".htmlspecialchars($_GET['puhnum']);	
 
 				   $msg=$msg."<br>".$Nimi."<br>".$Email."<br>".$Puhnum;
 
