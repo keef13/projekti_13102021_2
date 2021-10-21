@@ -82,7 +82,7 @@ $(function() {
 				   if(isset($_GET['puhnum']))
                    $Puhnum = "Puhnum: ".$_GET['puhnum'];	
 
-				   $msg=$msg."<br>".$Nimi."<br>".$Email."<br>"$Puhnum;
+				   $msg=$msg."<br>".$Nimi."<br>".$Email."<br>".$Puhnum;
 
 
 					//03102021
