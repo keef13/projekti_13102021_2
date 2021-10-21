@@ -128,7 +128,7 @@ $(function() {
 			  <option>Yhteydenottopyyntö</option>
 			  <option>Muu</option>
 			</select>-->
-			<br><br>
+			
 			Viesti:<br>
 			<textarea name="viesti" size="30" maxlength="500"></textarea>
 			<br><br>
