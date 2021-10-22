@@ -85,14 +85,10 @@ $(function() {
   </div> 
 </header>
 
- <!--<h1 id="info">--> <!-- Resize and Scroll the Page -->
- <!-- </h1> -->
+ 
 
  <br><br><br><br>
-<!-- 
-<section>
-  <h1>Mônica Saturno Busatta</h1>
-</section> -->
+
 
 <!-- https://s.cdpn.io/6859/iphone.png -->
 
