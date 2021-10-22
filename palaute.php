@@ -115,7 +115,7 @@ $(function() {
 			
 			
 			Sähköposti:<br>
-			<input type="email" name="email" required placeholder="Enter a valid email address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"> <br><br>
+			<input type="email" name="email" required placeholder="Lisää validi sähköpostiosoite" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"> <br><br>
 			
 			Puhelinnumero:<br>
 			<input type="text" name="puhnum" size="20" maxlength="20" required> <br><br>
