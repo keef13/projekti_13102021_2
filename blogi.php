@@ -104,10 +104,6 @@ $(function() {
 <strong>Kommentoi:</strong><br><textarea name="kommentti" rows="4" cols="50"></textarea>
 <div class="grid-container">
 
-<!--<div class="grid-item">Nimi*<br><input name="nimi" size="10"></div>
-<div class="grid-item">Sähköpostiosoite*<br><input size="10" name="email"></div>
-
-<div class="grid-item">Kotisivu<br><input size="10" name="kotisivu"></div><br>-->
 </div>
 <div class="grid-item"><button type="submit" name="lisaa" value="lisaa" class="button">Lähetä</button></div>
 
@@ -142,17 +138,7 @@ if ($connection->query($sql) === TRUE) {
   echo "Error: " . $sql . "<br>" . $connection->error;
 }
 
-//$sql = "INSERT INTO users ( firstname, lastname) SELECT id_user, kommentti FROM kommentit p";
 
-
-
-/*
-if ($connection->query($sql) === TRUE) {
-
-} else {
-  echo "Error: " . $sql . "<br>" . $connection->error;
-}
-*/
 //$connection->close();
 
 }
@@ -175,11 +161,6 @@ $sql = "INSERT INTO users (firstname, email) VALUES ('$nimi','$email')";
 //$sql = "SELECT firstname, kommentti from kommentit inner join users id_user=id";
 $sql2 = "SELECT kommentti from kommentit";
 
-
-
-
-//if ($result->num_rows > 0) {
-  // output data of each row
   
 
 
