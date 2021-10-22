@@ -100,7 +100,7 @@ $result = $connection->query($sql);
 
 
 <strong>Kiitos rekisteröitymisestä!</strong>
-<p style="margin-top:30px;">Saat sähköpostiisi rekisteröitymis vahvistuksen.</p>
+<p style="margin-top:30px;">Saat sähköpostiisi rekisteröitymisvahvistuksen.</p>
 
 
 
