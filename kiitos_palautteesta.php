@@ -152,11 +152,11 @@ if(!$mail->send()){
 			</ul>
 				
       <!-- Side navigation on desktop -->
-			<div class="side-nav">
+		<!--	<div class="side-nav">
 				<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 				<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 				<a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-		</div>
+		</div> -->
 	</nav>
     
   </div> 
