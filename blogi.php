@@ -179,7 +179,7 @@ $date2=date_format($date,"d.m.Y H:i:s");
 
 
 		//printf ("%s %s %s\n", $row2["firstname"], $row2["lastname"], $row2["kommentti"]);
-		?><tr><td><div style="border:1px solid #000;"><?php echo $row2["firstname"]." ".$row2["lastname"]." ". $date2 ?><br><?php echo $row2["kommentti"] ?></div></td></tr>
+		?><tr><td><div style="border:1px solid #000;font-weight: bold;"><?php echo $row2["firstname"]." ".$row2["lastname"]." ". $date2 ?><br><?php echo $row2["kommentti"] ?></div></td></tr>
 		<!--<tr><td><?php /*echo $row2["kommentti"]*/ ?></td></tr>-->
 	
 		
