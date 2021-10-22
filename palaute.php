@@ -131,11 +131,11 @@ $(function() {
 			
 			Viesti:<br>
 			<textarea name="viesti" size="30" maxlength="500" required></textarea>
-			<br><br>
+			<!-- <br><br>
 			<label class="container">Haluan tilata uutiskirjeen
 			<input type="checkbox">
 			<span class="checkmark"></span>
-			</label>
+			</label> -->
 			<br><br>
 			<input type="submit" value="Lähetä">
 		</fieldset>
