@@ -95,6 +95,7 @@ $(function() {
 
 
 <h1>Blogi</h1>
+<br>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quam risus, consectetur pharetra mattis hendrerit, placerat at lorem. Maecenas molestie erat quis orci blandit accumsan. Fusce nec blandit metus. Donec et velit cursus, gravida lectus quis, suscipit tortor. Proin non vehicula est, id interdum mauris. Nunc eu nibh sapien. Vestibulum risus ante, mollis ac sodales et, laoreet in felis. Suspendisse dolor est, tempus ut accumsan nec, sollicitudin ut felis. Praesent ut risus suscipit, sollicitudin sapien ut, consectetur lectus. Suspendisse laoreet massa sem, accumsan tristique velit vestibulum eget. Quisque molestie leo nec fermentum mattis. Vivamus a pretium risus, ac varius risus. Nulla imperdiet dignissim feugiat. Sed rutrum hendrerit ex, vulputate commodo felis malesuada ut. Cras commodo porttitor sollicitudin.</p>
 
 <br>
