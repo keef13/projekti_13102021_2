@@ -9,7 +9,7 @@ use PHPMailer\PHPMailer\Exception;
 
    
     // Database connection
-    include('config/db.php');
+    //include('config/db.php');
 ?>
  
 <!DOCTYPE html>
