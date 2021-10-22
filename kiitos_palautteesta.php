@@ -173,29 +173,9 @@ if(!$mail->send()){
 
 <div class="demo"></div>
 
-<!--<h2>Esitä vastaus</h2>-->
-<?php /*$x=true;
-$apu="";
-if(isset($_GET['lisaa']))
-$apu=$_GET['lisaa'];
-*/
-//if ($apu){
-	
-	//if($apu==null || isset($apu)){
-	
-	
-
-	?>
 
 
-	<?php
-	//$x=false;
-	//$apu.=$apu;
-	
-//}
-//}
 
-?>
 </div>
 </body>
 </html>
