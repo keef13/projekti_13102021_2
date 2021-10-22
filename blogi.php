@@ -98,9 +98,9 @@ $(function() {
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quam risus, consectetur pharetra mattis hendrerit, placerat at lorem. Maecenas molestie erat quis orci blandit accumsan. Fusce nec blandit metus. Donec et velit cursus, gravida lectus quis, suscipit tortor. Proin non vehicula est, id interdum mauris. Nunc eu nibh sapien. Vestibulum risus ante, mollis ac sodales et, laoreet in felis. Suspendisse dolor est, tempus ut accumsan nec, sollicitudin ut felis. Praesent ut risus suscipit, sollicitudin sapien ut, consectetur lectus. Suspendisse laoreet massa sem, accumsan tristique velit vestibulum eget. Quisque molestie leo nec fermentum mattis. Vivamus a pretium risus, ac varius risus. Nulla imperdiet dignissim feugiat. Sed rutrum hendrerit ex, vulputate commodo felis malesuada ut. Cras commodo porttitor sollicitudin.</p>
 
 
-<h2>Vastaa</h2>
+<!--<h2>Vastaa</h2>-->
 <form action="" method="post">
-Kommentti<br><textarea name="kommentti" rows="4" cols="50"></textarea>
+Kommentoi<br><textarea name="kommentti" rows="4" cols="50"></textarea>
 <div class="grid-container">
 
 <!--<div class="grid-item">Nimi*<br><input name="nimi" size="10"></div>
