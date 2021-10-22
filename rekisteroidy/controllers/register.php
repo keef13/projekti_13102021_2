@@ -106,7 +106,7 @@ use PHPMailer\PHPMailer\Exception;
                     if($sqlQuery) {
                      
 					//03102021
-					$msg = 'Click on the activation link to verify your email. <br><br><a href="https://terol.azurewebsites.net/rekisteroidy/user_verification.php?token='.$token.'"> Click here to verify email</a>';
+					$msg = 'Klikkaa linkkiä aktivoidaksesi tunnuksesi. <br><br><a href="https://terol.azurewebsites.net/rekisteroidy/user_verification.php?token='.$token.'"> Aktivoi tunnus</a>';
 					$emailFrom = "terol@vivaldi.net";
 					$emailFromName = "Blogi";
 					$emailToName = "";
