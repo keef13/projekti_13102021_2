@@ -34,13 +34,6 @@ use PHPMailer\PHPMailer\Exception;
 
 function writeMsg() {
 
-/*document.getElementsByClassName("demo").innerHTML = '<form action="" method="get"><textarea name="kjav3" rows="4" cols="50"></textarea><br><button type="submit" name="lisaa" value="lisaa">Lähetä</button></form>';*/
-/*let i=0;
-document.getElementsByClassName("demo")[i].innerHTML='<form action="action2.php" method="post"><textarea name="kjav3" rows="4" cols="50"></textarea><br><button type="submit" name="lisaa" value="lisaa">Lähetä</button></form>';
-
-i=i+1;
-
-*/
 
 }
 
