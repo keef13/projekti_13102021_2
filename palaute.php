@@ -105,7 +105,7 @@ $(function() {
 
 
 
-<div style="margin: auto;width: 50%;"/>
+<div style="margin: auto;width: 50%;">
 
 <form action="kiitos_palautteesta.php" style="padding:10px;">
 	    <fieldset>
