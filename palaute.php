@@ -22,7 +22,7 @@ use PHPMailer\PHPMailer\Exception;
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	
 	
-<link rel="stylesheet" href="https://code.jquery.com/jquery-3.2.1.min.js"> 
+	<link rel="stylesheet" href="https://code.jquery.com/jquery-3.2.1.min.js"> 
 	
 	<link rel="stylesheet" href="https://use.fontawesome.com/245137f78c.js">
 	
@@ -36,13 +36,7 @@ use PHPMailer\PHPMailer\Exception;
 
 function writeMsg() {
 
-/*document.getElementsByClassName("demo").innerHTML = '<form action="" method="get"><textarea name="kjav3" rows="4" cols="50"></textarea><br><button type="submit" name="lisaa" value="lisaa">Lähetä</button></form>';*/
-/*let i=0;
-document.getElementsByClassName("demo")[i].innerHTML='<form action="action2.php" method="post"><textarea name="kjav3" rows="4" cols="50"></textarea><br><button type="submit" name="lisaa" value="lisaa">Lähetä</button></form>';
 
-i=i+1;
-
-*/
 
 }
 
