@@ -164,22 +164,10 @@ if(!$mail->send()){
 
 <h1 id="info"><!-- Resize and Scroll the Page -->
 </h1>
-<!-- 
-<section>
-  <h1>Mônica Saturno Busatta</h1>
-</section> -->
+
 
 <!-- https://s.cdpn.io/6859/iphone.png -->
-<?php
-/*$nimi=null;
-if(isset($_POST['nimi']))
-$nimi=$_POST['nimi'];
-$email=null;
-if(isset($_POST['email']))
-$email=$_POST['email'];
-$sql = "INSERT INTO users (firstname, email) VALUES ('$nimi','$email')";
-$result = $connection->query($sql);
-*/?>
+
 
 <div style="margin: auto;width: 50%;"/>
 
