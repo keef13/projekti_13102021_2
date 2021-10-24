@@ -79,45 +79,45 @@ $(function() {
 
                         <?php echo $fNameEmptyErr; ?>
                         <?php echo $f_NameErr; ?>
-                        <br>
+                        
                     </div>
-
+                    <br>
                     <div class="form-group">
                         <label>Sukunimi</label><br>
                         <input type="text" class="form-control" name="lastname" id="lastName" required />
 
                         <?php echo $l_NameErr; ?>
                         <?php echo $lNameEmptyErr; ?>
-                        <br>
+                        
                     </div>
-
+                    <br>
                     <div class="form-group">
                         <label>Email</label><br>
                         <input type="email" class="form-control" name="email" id="email" required />
 
                         <?php echo $_emailErr; ?>
                         <?php echo $emailEmptyErr; ?>
-                        <br>
+                       
                     </div>
-
+                    <br>
                     <div class="form-group">
                         <label>Puh.</label><br>
                         <input type="text" class="form-control" name="mobilenumber" id="mobilenumber" required />
 
                         <?php echo $_mobileErr; ?>
                         <?php echo $mobileEmptyErr; ?>
-                        <br>
+                        
                     </div>
-
+                    <br>
                     <div class="form-group">
                         <label>Salasana</label><br>
                         <input type="password" class="form-control" name="password" id="password" required />
 
                         <?php echo $_passwordErr; ?>
                         <?php echo $passwordEmptyErr; ?>
-                        <br>
+                       
                     </div>
-<br>
+<br> <br>
                     <button type="submit" name="submit" id="submit" class="btn btn-outline-primary btn-lg btn-block">Rekisteröidy
                     </button>
                     </fieldset>
