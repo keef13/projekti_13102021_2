@@ -157,10 +157,7 @@ section:after {
 
 @media screen and (min-width: 872px) {
   
-/* 24102021 */
-#blogi{
-  width: 75%;
-  }
+
 
 
 
@@ -203,4 +200,13 @@ border-radius: 15px;
 input{
   border-radius: 5px;
 
+}
+
+/* 17.11 */
+@media screen and (max-width: 872px) {
+#blogi{
+
+width:75%;
+
+}
 }
