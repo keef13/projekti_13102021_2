@@ -99,7 +99,7 @@ $(function() {
 
 <form action="kiitos_palautteesta.php" style="padding:10px;">
 	    <fieldset>
-			<legend>Yhteydenotto</legend>
+			<legend>Palaute</legend>
 			Nimi:<br>
 			<input type="text" name="nimi" size="20" maxlength="20" required> <br><br>
 			
