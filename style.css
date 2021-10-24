@@ -11,6 +11,7 @@ width:100% !important;
 
 }
 
+/* 24102021 */
 #blogi{
 width: 50%;
 }
@@ -156,6 +157,13 @@ section:after {
 
 @media screen and (min-width: 872px) {
   
+/* 24102021 */
+#blogi{
+  width: 75%;
+  }
+
+
+
   .content {
     padding: 0 50px;
   }
