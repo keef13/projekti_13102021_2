@@ -86,19 +86,19 @@ $(function() {
 					$emailFromName = "Palaute";
 					$emailToName = "";
 					$mail = new PHPMailer;
-						$mail->isSMTP(); 
-						$mail->CharSet = 'UTF-8';
-	$mail->SMTPDebug = 0; // 0 = off (for production use) - 1 = client messages - 2 = client and server messages
-	$mail->Host = "smtp.vivaldi.net"; // use $mail->Host = gethostbyname('smtp.gmail.com'); // if your network does not support SMTP over IPv6
-	$mail->Port = 587; // TLS only
-	$mail->SMTPSecure = 'tls'; // ssl is depracated
-	$mail->SMTPAuth = true;
-	$mail->Username = "terol@vivaldi.net";
-	$mail->Password = "Storykeef#13!!!";
-	$mail->setFrom($emailFrom, $emailFromName);
-	$email="laakso_tero@hotmail.com";
-	$mail->addAddress($email, $emailToName);
-	$mail->Subject = "Palaute sivustolta";
+					$mail->isSMTP(); 
+					$mail->CharSet = 'UTF-8';
+					$mail->SMTPDebug = 0; // 0 = off (for production use) - 1 = client messages - 2 = client and server messages
+					$mail->Host = "smtp.vivaldi.net"; // use $mail->Host = gethostbyname('smtp.gmail.com'); // if your network does not support SMTP over IPv6
+					$mail->Port = 587; // TLS only
+					$mail->SMTPSecure = 'tls'; // ssl is depracated
+					$mail->SMTPAuth = true;
+					$mail->Username = "terol@vivaldi.net";
+					$mail->Password = "Storykeef#13!!!";
+					$mail->setFrom($emailFrom, $emailFromName);
+					$email="laakso_tero@hotmail.com";
+					$mail->addAddress($email, $emailToName);
+					$mail->Subject = "Palaute sivustolta";
 	
 	
     $msg = wordwrap($msg,70);
@@ -113,7 +113,7 @@ $(function() {
 if(!$mail->send()){
     $tulos = false;
 	
-	echo "virhe";
+	echo "virhe: ". $mail->ErrorInfo;
 	
    // debuggeri("Mailer Error: " . $mail->ErrorInfo);
 }else{
