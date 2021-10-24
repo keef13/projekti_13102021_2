@@ -199,8 +199,12 @@ border-radius: 15px;
 
 input{
   border-radius: 5px;
-
 }
+
+textarea{
+  border-radius: 5px;
+}
+
 
 /* 17.11 */
 @media screen and (max-width: 872px) {
