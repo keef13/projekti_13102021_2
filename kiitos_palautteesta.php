@@ -136,7 +136,7 @@ if(!$mail->send()){
     <!-- Start Navigation -->
     <nav>
       <ul>
-				<li><a href="index.php" class="active">Aloitus</a></li>
+				<li><a href="index.php">Aloitus</a></li>
 				<li><a href="palaute.php">Palaute</a></li>
 				<li><a href="rekisteroidy/logout.php">Kirjaudu ulos</a></li>
 				<li><a href="rekisteroidy.php">Rekisteröidy</a></li>
