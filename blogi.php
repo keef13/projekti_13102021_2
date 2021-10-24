@@ -91,7 +91,7 @@ $(function() {
 
 
 
-<div style="margin: auto;width: 50%;">
+<div style="margin: auto;" id="blogi">
 
 
 <h1>Blogi</h1>
