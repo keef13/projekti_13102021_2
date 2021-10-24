@@ -84,9 +84,7 @@ $(function() {
                         ';*/
 					$emailFrom = "terol@vivaldi.net";
 					$emailFromName = "Palaute";
-
-					/* 24102021 */ 
-					$emailToName = $Nimi;
+					$emailToName = "";
 					$mail = new PHPMailer;
 					$mail->isSMTP(); 
 					$mail->CharSet = 'UTF-8';
