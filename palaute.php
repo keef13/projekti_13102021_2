@@ -120,7 +120,7 @@ $(function() {
 			</select>-->
 			
 			Viesti:<br>
-			<textarea name="viesti" maxlength="500" required rows="5" cols="25"></textarea>
+			<textarea name="viesti" maxlength="500" required rows="5" cols="30"></textarea>
 			<!-- <br><br>
 			<label class="container">Haluan tilata uutiskirjeen
 			<input type="checkbox">
