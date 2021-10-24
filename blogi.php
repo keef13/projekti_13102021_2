@@ -101,7 +101,7 @@ $(function() {
 <br>
 <!--<h2>Vastaa</h2>-->
 <form action="" method="post" style="margin:0px;padding:0px;">
-<strong>Kommentoi:</strong><br><textarea name="kommentti" rows="4" cols="50"></textarea>
+<strong>Kommentoi:</strong><br><textarea name="kommentti" rows="4" cols="40"></textarea>
 <div class="grid-container">
 
 </div>
