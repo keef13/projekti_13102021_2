@@ -133,5 +133,20 @@ $(function() {
 
 
 </div>
+
+<script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e64599724ae30d7ea4c6877eb615f89387.js"></script>
+
+<script src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
+<script src='https://use.fontawesome.com/245137f78c.js'></script>
+	<script id="rendered-js" >
+$(function () {
+$('.toggler').on('click', function () {
+  $('nav').slideToggle(500);
+});
+});
+//# sourceURL=pen.js
+  </script>
+
+
 </body>
 </html>
