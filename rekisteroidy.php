@@ -79,6 +79,7 @@ $(function() {
 
                         <?php echo $fNameEmptyErr; ?>
                         <?php echo $f_NameErr; ?>
+                        <br>
                     </div>
 
                     <div class="form-group">
@@ -87,6 +88,7 @@ $(function() {
 
                         <?php echo $l_NameErr; ?>
                         <?php echo $lNameEmptyErr; ?>
+                        <br>
                     </div>
 
                     <div class="form-group">
@@ -95,6 +97,7 @@ $(function() {
 
                         <?php echo $_emailErr; ?>
                         <?php echo $emailEmptyErr; ?>
+                        <br>
                     </div>
 
                     <div class="form-group">
@@ -103,6 +106,7 @@ $(function() {
 
                         <?php echo $_mobileErr; ?>
                         <?php echo $mobileEmptyErr; ?>
+                        <br>
                     </div>
 
                     <div class="form-group">
@@ -111,6 +115,7 @@ $(function() {
 
                         <?php echo $_passwordErr; ?>
                         <?php echo $passwordEmptyErr; ?>
+                        <br>
                     </div>
 <br>
                     <button type="submit" name="submit" id="submit" class="btn btn-outline-primary btn-lg btn-block">Rekisteröidy
